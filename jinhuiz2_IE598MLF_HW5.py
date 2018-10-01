@@ -54,7 +54,7 @@ print('Dataset excerpt:\n\n', df_wine.head())
 #############################################################################
 
 sns.set(style='whitegrid', context='notebook')
-df_wine.columns = ['Class label', 'Alcohol', 'Malic acid', 'Ash',
+cols = ['Class label', 'Alcohol', 'Malic acid', 'Ash',
                    'Alcalinity of ash', 'Magnesium', 'Total phenols',
                    'Flavanoids', 'Nonflavanoid phenols', 'Proanthocyanins',
                    'Color intensity', 'Hue',
